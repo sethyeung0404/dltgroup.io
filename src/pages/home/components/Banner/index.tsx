@@ -1,11 +1,8 @@
 import React from "react";
-import { Flex, useBreakpointValue } from "@chakra-ui/react";
+import { Flex } from "@chakra-ui/react";
 import { Logo } from "./Logo";
-import Wave from "react-wavify";
 
 export const Banner = React.memo(() => {
-  const amplitude = useBreakpointValue({ base: 0.5, md: 1 });
-
   return (
     <Flex
       position="relative"
