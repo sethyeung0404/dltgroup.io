@@ -57,7 +57,7 @@ export const LoginDrawer = React.memo(() => {
 
             <Link>Forgot Password</Link>
 
-            <Button>Login</Button>
+            <Button color="gray.600">Login</Button>
           </Stack>
         </DrawerBody>
       </DrawerContent>

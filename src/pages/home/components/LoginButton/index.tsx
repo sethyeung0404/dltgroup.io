@@ -1,11 +1,11 @@
-import React from 'react';
-import { IconButton, Icon } from '@chakra-ui/react';
-import { FaUnlockAlt } from 'react-icons/fa';
+import React from "react";
+import { IconButton, Icon } from "@chakra-ui/react";
+import { FaUnlockAlt } from "react-icons/fa";
 import {
   loginDrawerVisibleAtom,
   toggleLoginDrawerAtom,
-} from '../../atoms/loginDrawerAtoms';
-import { useAtomValue, useUpdateAtom } from 'jotai/utils';
+} from "../../atoms/loginDrawerAtoms";
+import { useAtomValue, useUpdateAtom } from "jotai/utils";
 
 interface Props {
   alwaysShow?: boolean;
@@ -28,12 +28,11 @@ export const LoginButton = React.memo(({ alwaysShow }: Props) => {
       top="20vh"
       zIndex={9999}
       transition="all 300ms"
-      _hover={{ bgColor: 'gray.500' }}
-      _active={{ bgColor: 'gray.500' }}
+      _hover={{ bgColor: "gray.500" }}
       borderTopRightRadius={0}
       borderBottomRightRadius={0}
-      display={alwaysShow || !loginDrawerVisible ? 'block' : 'none'}
-      transform={alwaysShow ? 'translateX(-320px)' : undefined}
+      display={alwaysShow || !loginDrawerVisible ? "block" : "none"}
+      transform={alwaysShow ? "translateX(-320px)" : undefined}
     />
   );
 });

@@ -15,7 +15,7 @@ export const Banner = React.memo(() => {
     >
       <Flex
         position="relative"
-        transform={{ base: "scale(0.5)", md: "scale(1)" }}
+        transform={{ base: "scale(0.75)", md: "scale(1.25)" }}
         transformOrigin="center"
         justifyContent="center"
         alignItems="center"
