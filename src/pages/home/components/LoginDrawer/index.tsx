@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 import {
   Icon,
   Drawer,
@@ -12,14 +12,14 @@ import {
   InputLeftElement,
   Button,
   Link,
-} from '@chakra-ui/react';
-import { useAtomValue, useUpdateAtom } from 'jotai/utils';
+} from "@chakra-ui/react";
+import { useAtomValue, useUpdateAtom } from "jotai/utils";
 import {
   closeLoginDrawerAtom,
   loginDrawerVisibleAtom,
-} from '../../atoms/loginDrawerAtoms';
-import { LoginButton } from '../LoginButton';
-import { FaUser, FaLock } from 'react-icons/fa';
+} from "../../atoms/loginDrawerAtoms";
+import { LoginButton } from "../LoginButton";
+import { FaUser, FaLock } from "react-icons/fa";
 
 export const LoginDrawer = React.memo(() => {
   const loginDrawerVisible = useAtomValue(loginDrawerVisibleAtom);
