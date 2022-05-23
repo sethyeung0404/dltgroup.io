@@ -1,9 +1,9 @@
 {
-  "short_name": "DLT Ventures",
-  "name": "DLT Ventures",
+  "short_name": "DLT Group",
+  "name": "DLT Group",
   "icons": [],
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#000000"
 }
