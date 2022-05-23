@@ -11,7 +11,7 @@ export const Banner = React.memo(() => {
       flexDirection="column"
       height={{ base: "100vh" }}
       overflow="hidden"
-      backgroundColor="white"
+      backgroundColor="black"
     >
       <Flex
         position="relative"
